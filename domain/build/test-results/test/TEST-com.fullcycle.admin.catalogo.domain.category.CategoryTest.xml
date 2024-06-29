@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.fullcycle.admin.catalogo.domain.category.CategoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-15T21:46:09" hostname="DESKTOP-A58CV22" time="0.022">
+<testsuite name="com.fullcycle.admin.catalogo.domain.category.CategoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-06-29T20:28:56" hostname="DESKTOP-6BS0UH7" time="0.036">
   <properties/>
-  <testcase name="givenAValidParams_whenCallNewCategory_thenInstantiateACategory()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.022"/>
+  <testcase name="givenAValidParams_whenCallNewCategory_thenInstantiateACategory()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.029"/>
+  <testcase name="givenAnInvalidNullName_whenCallNewCategoryAndValidate_thenShouldReceiveError()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
